@@ -1,10 +1,9 @@
+<script setup lang="ts">
+import { Icon, NuxtLayout } from "#components";
+</script>
+
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline">
-      Hello World!
-    </h1>
-    <button class="btn btn-secondary">
-      Secondary
-    </button>
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
