@@ -1,5 +1,7 @@
 import daisyui from "daisyui";
 
+import "./lib/env";
+
 export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
@@ -15,7 +17,7 @@ export default defineNuxtConfig({
       theme: {
         extend: {},
       },
-      plugins: [daisyui], // ✅ correct usage
+      plugins: [daisyui],
     },
   },
   eslint: {
